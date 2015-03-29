@@ -1,17 +1,21 @@
 ---
 layout: post
-title:  "I wanna blog too!"
+title:  "Who wanna technical blog too?"
 date:   2015-03-29 20:00:20
 categories: Common Beginners
 ---
 
-So guys, just to avoid a lot of questions, let me explain what you need to create a blog. Most of you are experienced engineers, so this post is not for you, but for beginners.
+Please hold on and find few minutes for [this interesting article](http://http://blog.vjeux.com/2011/analysis/start-a-technical-blog-its-worth-it.html), IMHO it's a good summary why you should consider to create your own blog.
+
+So let me explain what you need to create a blog. Most of you are experienced engineers, so this post is not for you, but for beginners.
 
 You can use existing platforms like [blogspot](http://blogspot.com) or [wordpress](http://wordpress.com).
 
 I decided to go with simple static site and external systems for comments etc. So it can be placed on [GitHub Pages][pages-gh] or any hosting. I've used [Jekyll][jekyll] as the template processor with [Kasper theme][kasper]. A bit more themes are available [here](http://jekyllthemes.org/)
 
 This blog is available in my [GitHub](https://github.com/sotnikdv/sotnikdv.github.io) repository, feel free to fork and change to start your own blog. Please don't forget to delete my posts from `_posts` directory.
+
+**Take a look** at the [Textile Reference Manual for RedCloth 4](http://redcloth.org/textile/) which is a simple text markup language used in this blog.
 
 ### Local development and deploy to any server
 
@@ -72,18 +76,10 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 
 #### Step 3) Publish your first blog post
 
-Use any existing file in `/_posts/` as a template for your new post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+Use any existing file in `/_posts/` as a template for your new post.
 
 > You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
 
-#### Moar!
-
-More detailed walkthrough [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/)
-
-It covers:
-
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+[pages-gh]: http://pages.github.com
+[jekyll]: http://jekyllrb.com
+[kasper]: https://github.com/rosario/kasper
