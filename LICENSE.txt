@@ -1,4 +1,4 @@
-This licence is applied to all files except _posts folder content, about.md file and _config.yml file, which can't be distributed
+This licence is applied to all files except _posts folder content, about.md file and _config.yml file, which can't be changed or distributed. Use samples instead.
 
 Copyright (c) 2013 Ghost Foundation - Released under The MIT License.
 
