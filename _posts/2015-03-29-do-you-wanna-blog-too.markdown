@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Who wanna technical blog too?"
+title:  "Do you wanna technical blog too?"
 date:   2015-03-29 20:00:20
 categories: Common Beginners
 comments: true
