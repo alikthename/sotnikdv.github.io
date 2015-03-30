@@ -14,7 +14,13 @@ You can use existing platforms like [blogspot](http://blogspot.com) or [wordpres
 
 I decided to go with simple static site and external systems for comments etc. So it can be placed on [GitHub Pages][pages-gh] or any hosting. I've used [Jekyll][jekyll] as the template processor with [Kasper theme][kasper]. A bit more themes are available [here](http://jekyllthemes.org/)
 
-This blog is available in my [GitHub](https://github.com/sotnikdv/sotnikdv.github.io) repository, feel free to fork and change to start your own blog. Please don't forget to delete my posts from `_posts` directory.
+This blog is available in my [GitHub](https://github.com/sotnikdv/sotnikdv.github.io) repository, feel free to fork and change to start your own blog. 
+
+Don't forget to:
+- delete my posts from `_posts` directory
+- change `_config.yml` (use `_config.yml.sample`)
+- change `about.md` (use `about.md.sample`)
+- change Disqus section in `_layouts/post.html` to your own block, line 52
 
 **Take a look** at the [Textile Reference Manual for RedCloth 4](http://redcloth.org/textile/) which is a simple text markup language used in this blog.
 
