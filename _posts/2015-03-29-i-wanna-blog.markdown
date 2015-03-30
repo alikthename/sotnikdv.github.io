@@ -50,7 +50,7 @@ Configuration file: /home/sdv/code/sotnikdv.github.io/_config.yml
 
 To start local server, use `jekyll serve` inside a folder, server will be started by default on `http://127.0.0.1:4000/`
 
-So now you can upload folder content (after build) to any server.
+So now you can upload `_site` folder  content (after build) to any server.
 
 ### OMG! I wanna write posts and not scripts!
 
