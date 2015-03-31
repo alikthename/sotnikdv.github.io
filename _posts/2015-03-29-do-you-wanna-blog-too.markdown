@@ -6,7 +6,7 @@ categories: Common Beginners
 comments: true
 ---
 
-Look at [this interesting article](http://http://blog.vjeux.com/2011/analysis/start-a-technical-blog-its-worth-it.html), IMHO it's a good summary why you should consider to create your own blog.
+Look at [this interesting article](http://blog.vjeux.com/2011/analysis/start-a-technical-blog-its-worth-it.html), IMHO it's a good summary why you should consider to create your own blog.
 
 So let me explain what you need to create a blog. Most of you are experienced engineers, so this post is not for you, but for beginners.
 
