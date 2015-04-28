@@ -28,7 +28,9 @@ This blog is available in my [GitHub](https://github.com/sotnikdv/sotnikdv.githu
 
 See instructions how to write posts and list of available plugins on [Writing Posts on Jekyll](http://jekyllrb.com/docs/posts/)
 
-**Take a look** at the [Markdown Reference Manual](http://daringfireball.net/projects/markdown/syntax#link) which is a simple text markup language used in this blog.  
+**Take a look** at the [Markdown Reference Manual](http://daringfireball.net/projects/markdown/syntax#link) which is a simple text markup language used in this blog. Also you may use simple [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)  
+
+If you need more markup - I can recommend you [Textile](https://github.com/jekyll/jekyll-textile-converter) with this [beautiful manual](http://redcloth.org/textile)
 
 ### Local development and deploy to any server
 
