@@ -23,7 +23,12 @@ This blog is available in my [GitHub](https://github.com/sotnikdv/sotnikdv.githu
 - change `about.md` (use `about.md.sample`)
 - change Disqus section in `_layouts/post.html` to your own block, line 52
 
-**Take a look** at the [Textile Reference Manual for RedCloth 4](http://redcloth.org/textile/) which is a simple text markup language used in this blog.
+
+### How to write posts
+
+See instructions how to write posts and list of available plugins on [Writing Posts on Jekyll](http://jekyllrb.com/docs/posts/)
+
+**Take a look** at the [Markdown Reference Manual](http://daringfireball.net/projects/markdown/syntax#link) which is a simple text markup language used in this blog.  
 
 ### Local development and deploy to any server
 
