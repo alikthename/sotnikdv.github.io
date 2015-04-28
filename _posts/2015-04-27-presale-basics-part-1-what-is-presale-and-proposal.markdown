@@ -8,7 +8,7 @@ comments: true
 
 The real mystery of IT world is that a lot of presale people have basic understanding of technical side of presale. In the same time, technical specialists often have just basic understanding of what is presale and proposal, what is important and why, how to build proposal lifecycle process.
 
-In this serie of articles I’ll try to summarize all my knowledge about presale process, common mistakes, how to avoid them and propose formal process for proposal lifecycle. Hope that this material will be a good starting point. 
+In this serie of articles I’ll try to summarize all my knowledge about presale process, common mistakes, how to avoid them and will propose formal process for proposal lifecycle. Hope that this material will be a good starting point. 
 
 > **This is the early draft, so may contain a lot of mistypes and mistakes**
 
