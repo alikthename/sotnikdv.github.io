@@ -17,6 +17,7 @@ In this serie of articles I’ll try to summarize all my knowledge about presale
 [Presale Basics : Part 1. What is Presale and Proposal](/presale/basics/2015/04/27/presale-basics-part-1-what-is-presale-and-proposal.html)  
 [Presale Basics : Part 2. Common mistakes while Presale](/presale/basics/2015/04/27/presale-basics-part-2-common-mistakes-while-presale.html)  
 .. to be continued soon  
+[Presale Basics : Appendix A. Who is Presale Technical Leader](/presale/basics/2015/04/27/presale-basics-appendix-a-who-is-presale-technical-leader.html)  
 
 
 ###Target audience###
