@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "LinkedIn vulnarability ALERT: Full access to victim's account [Case : 150503-002390]"
+title:  "LinkedIn vulnerability ALERT: Full access to victim's account [Case : 150503-002390]"
 date:   2015-05-03 17:47:10
-categories: Security Vulnarability LinkedIn
+categories: Security Vulnerability LinkedIn
 comments: true
 ---
 
-This is an early notification about existing vulnarability in LinkedIn which was found, investigated and reproduced by me this week.
+This is an early notification about existing vulnerability in LinkedIn which was found, investigated and reproduced by me this week.
 
 I'd like to warn all of you and ask you to check LinkedIn settings.
 
-Also, it seems that I saw signs of usage of this vulnarability in the Internet. 
+Also, it seems that I saw signs of usage of this vulnerability in the Internet. 
 
 ### What to do  
 
