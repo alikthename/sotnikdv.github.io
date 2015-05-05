@@ -12,6 +12,10 @@ I'd like to warn all of you and ask you to check LinkedIn settings.
 
 Also, it seems that I saw signs of usage of this vulnerability in the Internet. 
 
+## Impact
+
+**Full access and control on victim's account, if invitation accepted from mail.**
+
 ### What to do  
 
 1. **DO NOT accept any invitation by click to button in invitation mail. Independently of the person, URL etc, issue is on LinkedIn side.**  
