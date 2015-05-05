@@ -15,7 +15,7 @@ Also, it seems that I saw signs of usage of this vulnerability in the Internet.
 ## Impact
 
 **Full access and control on victim's account, if invitation accepted from mail.**  
-**Change is permanent and victim can't return access except contact to LinkedIn support**
+**Hacker can change password and mails, so victim will not be able to return access except contact to LinkedIn support**
 
 ### What to do  
 
