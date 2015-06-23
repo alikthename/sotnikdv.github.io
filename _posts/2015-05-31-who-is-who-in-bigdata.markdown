@@ -6,7 +6,7 @@ categories: BigData
 comments: true
 ---
 
-Almost year ago I've returned back to Big Data area and started overview of known to me and new technologies. I was really impressed and even scared with tons of new tools and libraries which I never heard before (since I've used Hadoop few years ago). 
+Almost year ago I've returned back to Big Data area and started overview of new technologies. I was impressed with a lot of new tools and libraries which I never heard before (I've used Hadoop few years ago). 
 So let me share results of this overview, quick look on who is who in Big Data.
 
 ### What is Big Data ###
@@ -15,37 +15,37 @@ So let me share results of this overview, quick look on who is who in Big Data.
 
 For many people Big Data it's a magic buzzword which sounds attractive, but have no exact meaning, so we have to start with definition. 
 
-I guess that this picture is a good starting point to understand what is Big Data and Fast Data
+IMHO this picture will be the good starting point to understand what is Big Data and Fast Data
 
 ![The 3Vs that define Big Data](/assets/posts/2015-05-31-who-is-who-in-bigdata/what-is-bigdata.jpg)
 
-This image is from Diya Soubra's blog post, [The 3Vs that define Big Data](http://www.datasciencecentral.com/forum/topics/the-3vs-that-define-big-data) and I highly recommend to read it now.
+This image is from Diya Soubra's blog post, [The 3Vs that define Big Data](http://www.datasciencecentral.com/forum/topics/the-3vs-that-define-big-data) and I highly recommend to read it before you'll continue reading.
 
 ### Hadoop stack evolution ###
 
 *The raging ocean that covered everything was engulfed in total darkness, and the Spirit of God was moving over the water. (Bible. Genesis)*
 
-Most known Big Data technology is Hadoop which initially was based on [Map-Reduce](http://static.googleusercontent.com/media/research.google.com/en/us/archive/mapreduce-osdi04.pdf) ([see also](http://en.wikipedia.org/wiki/MapReduce)) pattern [implementation engine](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) and HDFS.  
+Most known Big Data technology is Hadoop, which initially was based on [Map-Reduce](http://static.googleusercontent.com/media/research.google.com/en/us/archive/mapreduce-osdi04.pdf) ([see also](http://en.wikipedia.org/wiki/MapReduce)) pattern [implementation engine](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) and HDFS.  
 
-Then, a lot of additional technologies which can use or can be used with Hadoop was created or adopted (like Pig, Hive etc.).  
+Then, a lot of additional technologies, which can use or can be used with Hadoop, was created or adopted (like Pig, Hive etc.).  
 
-So we can say that Hadoop now is the central part of Big Data stack (I mean important and frequently used!). But keep in mind that Hadoop **wasn't first** (see [BOINC](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing) for example) and Hadoop **isn't mandatory** part of Big Data stacks. Many frameworks and libraries can be used with or without Hadoop or even standalone.
+So we can say that Hadoop now is the core of Big Data stack (I mean important and frequently used). But keep in mind that Hadoop **wasn't first** (see [BOINC](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing) for example) and Hadoop **isn't mandatory** part of Big Data stacks. Many frameworks and libraries can be used with or without Hadoop or even standalone.
 
-Hadoop 2.0 introduced [YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) resource management and a central platform across Hadoop cluster.
+Hadoop 2.0 introduced [YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html), resource management and a central platform across Hadoop cluster.
 
 ![Hadoop Stack Evolution](/assets/posts/2015-05-31-who-is-who-in-bigdata/hadoopstack-evolution.png)
 
-Image from Hortonworks [Apache Hadoop 2 is now GA!](http://hortonworks.com/blog/apache-hadoop-2-is-ga/) article, it's highly recommended to read it before move ahead.
+Image from Hortonworks [Apache Hadoop 2 is now GA!](http://hortonworks.com/blog/apache-hadoop-2-is-ga/) article, highly recommended to read it before you'll continue.
 
-**NOTE:** When we are talking about Hadoop, keep in mind that it's open-source [Apache project](https://hadoop.apache.org/) with many contributors. Also we have many Hadoop Distributions (Hadoop + additional frameworks and libraries) created and supported by companies. Most known are [Hortonworks](http://hortonworks.com) and [Cloudera](http://cloudera.com).
+**NOTE:** When we are talking about Hadoop, keep in mind that it's open-source [Apache project](https://hadoop.apache.org/) with many contributors. Also we have many Hadoop Distributions (Hadoop + additional frameworks and libraries) created and supported by many companies. Most known are [Hortonworks](http://hortonworks.com) and [Cloudera](http://cloudera.com).
 
-**NOTE:** In this article I'll use a lot of articles and images from [Hortonworks](http://hortonworks.com) and the only reason for this is that this distribution is well documented as for me. Keep in mind that there are many other distributions with different content, so this particular one was used just to illustrate basic principles. 
+**NOTE:** In this article I'll use a lot of materials from [Hortonworks](http://hortonworks.com), but the only reason for this is good documentation. So, there are many other distributions with different content, this particular one was used just to illustrate basic principles. 
 
-So let me show what is included to Hortonworks Distribution, for example
+Let's look what is included to Hortonworks Distribution, for example
 
 ![Hortonworks Distribution](/assets/posts/2015-05-31-who-is-who-in-bigdata/hortonworks-distribution.png)
 
-Interesting, isn't it? So it's not only Hadoop inside, it's alot of frameworks and libraries, which can be used on top or with Hadoop. 
+As you can see, it's not only Hadoop inside, but a lot of frameworks and libraries, which can be used on top or with Hadoop. 
 But what is Hive, Pig etc.? Before we will dive in details let's look on the whole picture.  
 
 I'll use one more image from [Hortonworks Data Platform description page](http://hortonworks.com/hdp/), where you can find more details.
@@ -53,14 +53,14 @@ I'll use one more image from [Hortonworks Data Platform description page](http:/
 ![HDP](/assets/posts/2015-05-31-who-is-who-in-bigdata/hdp.jpg)
 
 
-So now it's time to overview most important technologies
+And now let's overview most important technologies
 
 ### List of Big Data technologies ###
 
-This is my list of the technologies you should be aware about. You may not be familiar with them but you definetly need to be aware about their existence and get basic understanding. So, let's start.
+This is my incomplete list of the technologies you should be at least aware about. You may not be familiar with them, but you definetly need to be aware about their existence and get basic understanding.
 
 
-**NOTE:** Before you'll start screaming "WTF?!", I'd like to say that if you'll scroll down to the next section, **you'll find schema which may be also good starting point**. So,
+**NOTE:** Before you'll say that this list is unstructured, I'd like to note in the next section **you'll find schema which may be also good starting point**. So,
 
 ![KEEP CALM AND CONTINUE READING](/assets/posts/2015-05-31-who-is-who-in-bigdata/calm-and-read.jpg)
 
